@@ -1,0 +1,20 @@
+{
+    "name": "Kaleidoscope for Inkwell(s)",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "env",
+    "workspaceFolder": "/workspace",
+    "features": {
+        "ghcr.io/devcontainers/features/common-utils:2": {
+            "installZsh": "true",
+            "username": "vscode",
+            "userUid": "1000",
+            "userGid": "1000",
+            "upgradePackages": "true"
+        }
+    },
+    "customizations": {
+        "vscode": {
+            
+        }
+    }
+}
