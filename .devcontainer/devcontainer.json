@@ -3,18 +3,24 @@
     "dockerComposeFile": "../docker-compose.yml",
     "service": "env",
     "workspaceFolder": "/workspace",
-    "features": {
-        "ghcr.io/devcontainers/features/common-utils:2": {
-            "installZsh": "true",
-            "username": "vscode",
-            "userUid": "1000",
-            "userGid": "1000",
-            "upgradePackages": "true"
-        }
-    },
     "customizations": {
         "vscode": {
-            
+            "extensions": [
+				"editorconfig.editorconfig",
+				"rust-lang.rust-analyzer",
+				"vadimcn.vscode-lldb",
+				"bungcip.better-toml",
+				"serayuzgur.crates",
+				"Gruntfuggly.todo-tree",
+				"aaron-bond.better-comments",
+				"vscode-icons-team.vscode-icons",
+				"streetsidesoftware.code-spell-checker",
+				"christian-kohler.path-intellisense",
+				"eamodio.gitlens",
+				"mhutchie.git-graph",
+				"adam-bender.commit-message-editor",
+				"ms-vscode.cpptools-extension-pack"
+			]
         }
     }
 }
